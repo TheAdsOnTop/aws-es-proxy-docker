@@ -1,6 +1,6 @@
 FROM golang:1.8.3-alpine3.6
 
-ENV REF='v0.4' \
+ENV REF='v0.8' \
     GO15VENDOREXPERIMENT=1
 
 RUN apk update && \
